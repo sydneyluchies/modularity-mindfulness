@@ -1,6 +1,12 @@
 html {
   font-family: "Noto Sans Japanese", sans-serif;
   color: #000;
+  align-items: center;
+}
+
+a:link {
+  text-decoration: underline #8bc9d9;
+  color: #005e76;
 }
 
 .img {
