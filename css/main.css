@@ -1,16 +1,25 @@
-@-moz-viewport { width: device-width; scale: 1; }
-@-ms-viewport { width: device-width; scale: 1; }
-@-o-viewport { width: device-width; scale: 1; }
-@-webkit-viewport { width: device-width; scale: 1; }
-@viewport { width: device-width; scale: 1; }
 html {
-  box-sizing: border-box;
+  font-family: "Noto Sans Japanese", sans-serif;
+  color: #000;
 }
 
-*, *::before, *::after {
-  box-sizing: inherit;
-}
-.img-flex {
+.img {
   display: block;
   width: 100%;
+}
+
+.btn {
+  color: #005e76;
+  border-color: #005e76;
+  background-color: white;
+}
+
+.btn:hover {
+  color: #005e76;
+  background-color: #8bc9d9;
+  border-color: #005e76;
+}
+
+footer {
+  color: #e2e2e2;
 }
